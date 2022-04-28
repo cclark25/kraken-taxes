@@ -1,0 +1,21 @@
+{
+	"name": "kraken-taxes",
+	"version": "1.0.0",
+	"description": "Script for transforming krakken ledger files to tax reports.",
+	"main": "index.js",
+	"scripts": {
+		"transform": "ts-node ./src/generate-report.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"xlsx": "0.18.5"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.29",
+		"@types/xlsx": "0.0.36",
+		"ts-loader": "6.2.1",
+		"ts-node": "10.7.0",
+		"typescript": "4.6.4"
+	}
+}

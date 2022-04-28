@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES2019" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+		"module": "commonjs" /* Specify what module code is generated. */,
+		"sourceMap": true,
+		"esModuleInterop": true ,
+    "lib": ["ES2019"],
+    "experimentalDecorators": true,
+    "strict": true
+	}
+}

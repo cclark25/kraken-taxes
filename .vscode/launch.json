@@ -1,0 +1,21 @@
+{
+	"configurations": [
+		{
+			"name": "Test",
+			"type": "node",
+			"request": "launch",
+			"runtimeExecutable": "node",
+			"runtimeArgs": [
+				"--nolazy",
+				"-r",
+				"ts-node/register/transpile-only"
+			],
+			"args": [
+				"${workspaceFolder}/src/generate-report.ts",
+				"${workspaceFolder}/test/test.csv",
+                "${workspaceFolder}/output/output.csv"
+			],
+			"skipFiles": ["<node_internals>/**", "node_modules/**"]
+		}
+	]
+}

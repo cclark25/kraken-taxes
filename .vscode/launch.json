@@ -15,6 +15,7 @@
 				"${workspaceFolder}/test/test.csv",
                 "${workspaceFolder}/output/output.csv"
 			],
+            
 			"skipFiles": ["<node_internals>/**", "node_modules/**"]
 		}
 	]
